@@ -1,0 +1,45 @@
+/* Reset da página com CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    text-align: center;
+    border-radius: 20;
+    background-color: coral
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border: 2px solid black
+}
+
+.titulo h1{
+        display:flex;
+        font-family:Arial
+    }
+
+
+.form01{
+    /* Display flex */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+
+}
+.form02{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
